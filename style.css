@@ -5,8 +5,9 @@ body {
 
 /* header section */
 header {
-    display: flex;
-    justify-content: space-around;
+   display: flex;
+   justify-content: space-evenly;
+  
 }
 
 nav ul li {
@@ -16,6 +17,8 @@ nav ul li {
     margin: 0 30px;
 
 }
+/* icon */
+
 
 /* section1 */
 .start {
@@ -51,7 +54,10 @@ nav ul li {
     background: #E02C6D;
     padding: 10px 24px;
     border: none;
+    
+   
 }
+
 
 /* section2 */
 .company img {
@@ -136,6 +142,20 @@ nav ul li {
 }
 /* footer */
 
-.instragram{
-    color:white;
+.icons{
+   display: flex;
+   margin-left: 650px;
+   gap: 40px;
+   
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:576px) {
+    header{
+        display: none;
+    }
 }
