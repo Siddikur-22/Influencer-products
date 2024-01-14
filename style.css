@@ -74,8 +74,8 @@ nav ul li {
     color: #18191F;
     font-style: normal;
     font-weight: 500;
-    padding:50px;
-    gap:80px;
+    padding: 50px;
+    gap: 80px;
     margin-bottom: -70px;
 }
 
@@ -83,7 +83,59 @@ nav ul li {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-    margin-left: 155px; 
-    margin-right:-210px;
+    margin-left: 155px;
+    margin-right: -210px;
     padding: 30px;
+}
+
+.see-more {
+    color: #E02C6D;
+    text-align: right;
+    margin-right: 190px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+/* section-4 */
+.section-4 {
+    display: flex;
+    margin-left: 165px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.featured {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.featured h1 {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+
+
+}
+
+#join-now {
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+/* section5 */
+.foooter {
+    background: #0A0826;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+   
+    
+}
+.footer-text{
+   padding: 20px 0;
+}
+/* footer */
+
+.instragram{
+    color:white;
 }
