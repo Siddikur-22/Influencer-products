@@ -5,9 +5,9 @@ body {
 
 /* header section */
 header {
-   display: flex;
-   justify-content: space-evenly;
-  
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 nav ul li {
@@ -17,6 +17,7 @@ nav ul li {
     margin: 0 30px;
 
 }
+
 /* icon */
 
 
@@ -54,8 +55,8 @@ nav ul li {
     background: #E02C6D;
     padding: 10px 24px;
     border: none;
-    
-   
+
+
 }
 
 
@@ -134,19 +135,21 @@ nav ul li {
     height: 300px;
     color: #FFF;
     text-align: center;
-   
-    
+
+
 }
-.footer-text{
-   padding: 20px 0;
+
+.footer-text {
+    padding: 20px 0;
 }
+
 /* footer */
 
-.icons{
-   display: flex;
-   margin-left: 650px;
-   gap: 40px;
-   
+.icons {
+    display: flex;
+    margin-left: 650px;
+    gap: 40px;
+
 }
 
 
@@ -154,8 +157,38 @@ nav ul li {
 
 /* Responsive */
 
+/* Mobile device size */
+
 @media screen and (max-width:576px) {
-    header{
+    header {
         display: none;
+
+    }
+
+    .camera {
+        display: flex;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* Tablet device size */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        display: flex;
+    }
+
+    .start {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    .two img{
+        width: 200px;
+        height:200px;
+    }
+    .camera .background {
+        background: url(images/Circle\ design.svg);
+
     }
 }
