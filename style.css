@@ -215,7 +215,7 @@ nav ul li {
         
     }
     .img1 {
-        margin-left: -35px;
+        margin-left: -28px;
         margin-right: 0px;
     
     }
@@ -230,10 +230,13 @@ nav ul li {
     .imges img{
         height: 250px;
         width: 250px;
-        margin-left: -100px;
+        margin-left: -80px;
+    }
+    .featured #join-now{
+        margin-left: 80px;
     }
     .featured{
-        margin-left:-130px;
+        margin-left:-90px;
     }
     .featured h1{
         font-size: 23px;
@@ -242,7 +245,7 @@ nav ul li {
         font-size: 10px;
     }
     .icons{
-        margin-left: 90px;
+        margin-left: 110px;
     }
 }
 
