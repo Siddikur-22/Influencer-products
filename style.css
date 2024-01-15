@@ -202,17 +202,13 @@ nav ul li {
         height: 250px;
         width: 250px;
     }
-    .commpany-icon{
-        display: grid;
-        grid-template-columns:repeat(2,1fr);
-        gap: 30px;
-    }
     .commpany-icon img{
-        margin-left:50px;
+        padding:30px;
         gap: -30px;
         
-       
     }
+    
+    
     .section2-title h2{
         font-size: 30px;
         margin-left: 30px;
@@ -244,6 +240,9 @@ nav ul li {
     }
     .featured p{
         font-size: 10px;
+    }
+    .icons{
+        margin-left: 90px;
     }
 }
 
