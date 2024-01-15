@@ -218,13 +218,37 @@ nav ul li {
         margin-left: 30px;
         
     }
+    .img1 {
+        margin-left: -35px;
+        margin-right: 0px;
+    
+    }
     .img-section{
         display: grid;
+        gap: 20px;
+       
+    }
+    .section-4{
+        display: grid;
+    }
+    .imges img{
+        height: 250px;
+        width: 250px;
+        margin-left: -100px;
+    }
+    .featured{
+        margin-left:-130px;
+    }
+    .featured h1{
+        font-size: 23px;
+    }
+    .featured p{
+        font-size: 10px;
     }
 }
 
 /* Tablet device size */
-@media screen and (min-width:576px) and (max-width:960px) {
+@media screen and (min-width:576px) and (max-width:960px){
     header {
         display: flex;
     }
